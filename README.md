@@ -37,3 +37,10 @@ Backend: Contains all Spring Boot server-side code and database logic.
 6. Start the Spring Boot application 
 7. Start the frontend development server: npm start
 8. Open the application in your browser: http://localhost:3000 
+
+## Example Data to Enter in the User Form: 
+1. title: The most visited urban park in the United States
+2. place: Central Park, New York
+3. country: United States of America
+4. image url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg/1280px-Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg
+5. description: Central Park is the fifth-largest park in New York City, behind Pelham Bay Park, the Staten Island Greenbelt, Van Cortlandt Park, and Flushing Meadows–Corona Park, with an area of 843 acres (341 ha; 1.317 sq mi; 3.41 km2).
