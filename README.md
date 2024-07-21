@@ -44,3 +44,14 @@ Backend: Contains all Spring Boot server-side code and database logic.
 3. country: United States of America
 4. image url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg/1280px-Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg
 5. description: Central Park is the fifth-largest park in New York City, behind Pelham Bay Park, the Staten Island Greenbelt, Van Cortlandt Park, and Flushing Meadows–Corona Park, with an area of 843 acres (341 ha; 1.317 sq mi; 3.41 km2).
+
+## PostgreSQL Connection:
+You will find this connection settings at directory "src/main/resources/application.properties" into the spring project.
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/database \
+spring.datasource.username=username \
+spring.datasource.password=password  
+
+Replace that connection properties("database", "username", "password") with your own database credentials for PostgreSQL.
+
+**Note: At the root directory of the spring project you will find file "myplace_create_table_script.txt" that include creating table script. Be sure that you will run first this script into PostgreSQL before starting using this application.**
