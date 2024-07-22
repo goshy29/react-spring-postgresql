@@ -1,0 +1,61 @@
+.section {
+    background-image: url("../../assets/images/beach.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.section_content h1 {
+    color: white;
+    font-size: 56px;
+}
+
+.section_content p {
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.btn:hover a {
+    color: black;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .section_content h1 {
+        font-size: 36px;
+    }
+
+    .section_content p {
+        font-size: 10px;
+    }
+}

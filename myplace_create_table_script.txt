@@ -1,0 +1,13 @@
+CREATE SEQUENCE place_sequence
+    START WITH 1
+    INCREMENT BY 1;
+
+
+CREATE TABLE myplaces (
+    id BIGINT PRIMARY KEY DEFAULT nextval('place_sequence'),
+    title VARCHAR(255) NOT NULL,
+    place VARCHAR(255) NOT NULL,
+    country VARCHAR(255) NOT NULL,
+    image VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL
+);

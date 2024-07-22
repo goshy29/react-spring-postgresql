@@ -1,0 +1,84 @@
+.content {
+    background-color: white;
+    opacity: 0.95;
+    padding: 15px 0;
+}
+
+.details {
+    margin: 0 auto;
+    max-width: 40rem;
+    text-align: center;
+    padding: 0 6px;
+}
+
+.details img {
+    width: 100%;
+    height: 100%;
+}
+
+.details h1,
+.details h2,
+.details address,
+.details p {
+    margin: 8px 0;
+}
+
+.btn_container {
+    display: flex;
+}
+
+.btn_edit {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    padding: 0.7rem 1.5rem;
+    border: 2px solid #65c0ba;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background: none;
+    color: #65c0ba;
+    font-size: inherit;
+}
+
+.btn_edit:hover {
+    background-color: #65c0ba;
+    color: black;
+}
+
+.btn_delete {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    padding: 0.7rem 1.5rem;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background: none;
+    color: lightcoral;
+    font-size: inherit;
+}
+
+.btn_delete:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+@media (max-width: 768px) {
+
+    .details h1,
+    .details h2 {
+        font-size: 20px;
+    }
+
+    .btn_container {
+        display: block;
+    }
+
+    .btn_edit,
+    .btn_delete {
+        width: 70%;
+        font-size: 14px;
+    }
+}
